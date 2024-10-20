@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+padding: 0px;
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+#Principal{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-family: cursive;
+}
+#FamilíaNascimento{
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: cursive;
+    strong{
+        margin-left: 45%;
+    }
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+#História{
+padding: 0px;
+}
+.titulos{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-family: cursive;
+}
+li{
+    font-family: cursive;
+    margin-left: 30%;
+    padding: 0px;
+}
+#FM{
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+#tg{
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    strong{
+        margin-left: 20%;
+    }
+    padding: 10px;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-left: 30%;
+    padding: 10px;
+}
+#FM{
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    strong{
+        margin-left: 33%;
+    }
+    margin-left: 13%;
+    padding: 10px;
+}
+#fg{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    strong{
+        margin-left: -2%;
+    }
+    margin-left: 33%;
+}
+body{
+    background-image: linear-gradient(#FAC06F,
+    #FC916E,
+    #F27545,
+    #D55466,
+    #623670,
+    #273A7D);
+}
+p{
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+h2{
+    padding: 10px;
+    text-align: center;
+}
+a{
+    color: #000000
+}
+li{
+    padding: 10px;
+    font-family: cursive;
+}
+#Diferenciais
+{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+}
+button:hover:after{
+    content:"Arthur D'Lucca Araujo dos Santos, Bruna Cardoso Feitoza, Bruna da Silva Santos";
+   font-size:20px;
+}
+#qsn{
+    padding: 0px;
+    text-align:left;
+}
+#nomes{
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    img{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    img{
+        height: 100px;
+    }
+    li{
+        font-family: cursive;
+        margin-left: 10%;
+        padding: 0px;
+    }
+    #FamilíaNascimento{
+        strong{
+            margin-left: 20%;
+        }
+    }
+    #fg{
+        height: 200px;
+    }
+    #tg{
+        strong{
+            margin-left: 10%;
+        }
+    }
+}
