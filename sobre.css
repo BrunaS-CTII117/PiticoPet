@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+    background-image:linear-gradient(#D55466, #623670, #273A7D);
+}
+img{
+width: 400px;
+height: 300px;
+object-position: 50px;
+}
+h1, p{
+    color: antiquewhite;
+    font-family: cursive;
+    text-align: center;
+}

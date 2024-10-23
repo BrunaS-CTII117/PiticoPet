@@ -1,85 +1,7 @@
 @charset "UTF-8";
 * {
     margin: 0px;
-padding: 0px;
-}
-h3 {
-    margin: 0px;
     padding: 0px;
-}
-#Principal{
-    padding: 10px;
-    color:antiquewhite;
-    text-shadow: 2px 2px 2px #000000;
-    text-align: center;
-    font-family: cursive;
-}
-#FamilíaNascimento{
-    color:antiquewhite;
-    text-shadow: 2px 2px 2px #000000;
-    font-family: cursive;
-    strong{
-        margin-left: 45%;
-    }
-    padding: 10px;
-    margin-left: 2%;
-    margin-right: 10%;
-}
-#História{
-    padding: 10px;
-    color:antiquewhite;
-    text-shadow: 2px 2px 2px #000000;
-    text-align: center;
-    font-family: cursive;
-    padding: 0px;
-}
-#FN{
-    padding: 10px;
-    color:antiquewhite;
-    text-shadow: 2px 2px 2px #000000;
-    text-align: center;
-    font-family: cursive;
-    padding: 0px;
-}
-li{
-    font-family: cursive;
-    margin-left: 30%;
-    padding: 0px;
-}
-#FM{
-    padding: 10px;
-    margin-left: 2%;
-    margin-right: 10%;
-}
-#tg{
-    color:antiquewhite;
-    text-shadow: 2px 2px 2px #000000;
-    strong{
-        margin-left: 20%;
-    }
-    padding: 10px;
-    margin-left: 23%;
-    margin-right: 23%;
-    margin-left: 30%;
-    padding: 10px;
-}
-#FM{
-    color:antiquewhite;
-    text-shadow: 2px 2px 2px #000000;
-    strong{
-        margin-left: 33%;
-    }
-    margin-left: 13%;
-    padding: 10px;
-}
-#fg{
-    padding: 10px;
-    color:antiquewhite;
-    text-shadow: 2px 2px 2px #000000;
-    strong{
-        margin-left: -2%;
-    }
-    margin-left: 33%;
 }
 body{
     background-image: linear-gradient(#FAC06F,
@@ -89,25 +11,69 @@ body{
     #623670,
     #273A7D);
 }
+#Principal{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-family: cursive;
+}
+li{
+    padding: 10px;
+    font-family: cursive;
+    margin-left: 35%;
+}
+a{
+    color: #000000
+}
+#TG{
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    padding: 10px;
+    margin-left: 30%;
+}
+#IG{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 32%;
+    width: 450px;
+}
+#História{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-family: cursive;
+}
+#FN{
+    padding: 10px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-family: cursive;
+}
+#IF{
+    width: 87%; 
+    height: 500px;
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 5%;
+    padding: 10px;
+}
 p{
     padding: 10px;
     margin-left: 5%;
     margin-right: 5%;
     font-family:Arial, Helvetica, sans-serif; 
 }
-h2{
-    padding: 10px;
+#TD{
     text-align: center;
-}
-a{
-    color: #000000
-}
-li{
     padding: 10px;
-    font-family: cursive;
-}
-#Diferenciais
-{
+    color:antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+} 
+#D{
     padding: 10px;
     color:antiquewhite;
     text-shadow: 2px 2px 2px #000000;
@@ -120,16 +86,44 @@ button:hover:after{
     padding: 0px;
     text-align:left;
 }
-#nomes{
+footer{
     display: none;
 }
-#IF{
-    width: 1000px; 
-    height: 500px;
-}
+
 @media screen and (max-width: 900px) {
-    img{
-        height: 200px;
+    #IL{
+        width: 100%;
+        height: 300px;
+    }
+    nav{
+        font-family: cursive;
+        margin-left: 15PX;
+        padding: 0px;
+    }
+    #TG{
+        padding: 40px;
+        color:antiquewhite;
+        text-shadow: 2px 2px 2px #000000;
+        font-family: cursive;
+        margin-left: 100px;
+    }
+    #IG{
+            width: 70%;
+            height: 350px;
+            margin-left: 13%;
+    }
+    #FN{
+        strong{
+            margin-left: 3%;
+        }
+    }
+    #IF{
+        width: 87%;
+        height: 80%;
+        margin-left: 7%;
+    }
+    li{
+        margin-left: 25%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -137,16 +131,22 @@ button:hover:after{
         width: 100%;
         height: 150px;
     }
-    li{
+    nav{
         font-family: cursive;
-        margin-left: 161PX;
+        margin-left: 1PX;
         padding: 0px;
+    }
+    #TG{
+        padding: 20px;
+        color:antiquewhite;
+        text-shadow: 2px 2px 2px #000000;
+        font-family: cursive;
+        margin-left: 60px;
     }
     #IG{
         width: 70%;
         height: 250px;
-        margin-right: 100px;
-        text-align: center;
+        margin-left: 10%;
     }
     #FN{
         strong{
